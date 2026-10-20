@@ -1,0 +1,3337 @@
+{
+ "tile": 16,
+ "size_tiles": [
+  64,
+  46
+ ],
+ "wall_rows": 3,
+ "base": "map/office_base.png",
+ "rooms": [
+  {
+   "id": "direksi",
+   "name": "Ruang Direksi",
+   "category": "Strategi, produk, finance",
+   "head_agent": "direksi_head",
+   "rect_tiles": [
+    0,
+    0,
+    14,
+    14
+   ],
+   "interior_tiles": [
+    1,
+    3,
+    12,
+    10
+   ],
+   "doors": [
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       6,
+       13
+      ],
+      [
+       7,
+       13
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    69,
+    1,
+    85,
+    11
+   ]
+  },
+  {
+   "id": "lab_qa",
+   "name": "Lab QA & Keamanan",
+   "category": "Testing, audit, anti-slop",
+   "head_agent": "qa_head",
+   "rect_tiles": [
+    14,
+    0,
+    14,
+    14
+   ],
+   "interior_tiles": [
+    15,
+    3,
+    12,
+    10
+   ],
+   "doors": [
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       20,
+       13
+      ],
+      [
+       21,
+       13
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    281,
+    1,
+    109,
+    11
+   ]
+  },
+  {
+   "id": "engineering",
+   "name": "Bengkel Engineering",
+   "category": "Dev & engineering",
+   "head_agent": "eng_head",
+   "rect_tiles": [
+    28,
+    0,
+    20,
+    14
+   ],
+   "interior_tiles": [
+    29,
+    3,
+    18,
+    10
+   ],
+   "doors": [
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       37,
+       13
+      ],
+      [
+       38,
+       13
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    547,
+    1,
+    121,
+    11
+   ]
+  },
+  {
+   "id": "riset",
+   "name": "Perpustakaan Riset",
+   "category": "Data, riset, analisis",
+   "head_agent": "riset_head",
+   "rect_tiles": [
+    48,
+    0,
+    16,
+    14
+   ],
+   "interior_tiles": [
+    49,
+    3,
+    14,
+    10
+   ],
+   "doors": [
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       55,
+       13
+      ],
+      [
+       56,
+       13
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    838,
+    1,
+    115,
+    11
+   ]
+  },
+  {
+   "id": "rapat",
+   "name": "Ruang Rapat",
+   "category": "Fasilitas",
+   "head_agent": null,
+   "rect_tiles": [
+    0,
+    17,
+    14,
+    12
+   ],
+   "interior_tiles": [
+    1,
+    20,
+    12,
+    8
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       6,
+       17
+      ],
+      [
+       7,
+       17
+      ]
+     ]
+    },
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       6,
+       28
+      ],
+      [
+       7,
+       28
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    75,
+    273,
+    73,
+    11
+   ]
+  },
+  {
+   "id": "lobby",
+   "name": "Lobby & Direktori",
+   "category": "Pencarian global",
+   "head_agent": "lobby_head",
+   "rect_tiles": [
+    14,
+    17,
+    20,
+    12
+   ],
+   "interior_tiles": [
+    15,
+    20,
+    18,
+    8
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       23,
+       17
+      ],
+      [
+       24,
+       17
+      ]
+     ]
+    },
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       23,
+       28
+      ],
+      [
+       24,
+       28
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    329,
+    273,
+    109,
+    11
+   ]
+  },
+  {
+   "id": "redaksi",
+   "name": "Ruang Redaksi",
+   "category": "Writing & knowledge work",
+   "head_agent": "redaksi_head",
+   "rect_tiles": [
+    34,
+    17,
+    15,
+    12
+   ],
+   "interior_tiles": [
+    35,
+    20,
+    13,
+    8
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       41,
+       17
+      ],
+      [
+       42,
+       17
+      ]
+     ]
+    },
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       41,
+       28
+      ],
+      [
+       42,
+       28
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    621,
+    273,
+    85,
+    11
+   ]
+  },
+  {
+   "id": "growth",
+   "name": "Ruang Growth",
+   "category": "Marketing, sales, iklan",
+   "head_agent": "growth_head",
+   "rect_tiles": [
+    49,
+    17,
+    15,
+    12
+   ],
+   "interior_tiles": [
+    50,
+    20,
+    13,
+    8
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       56,
+       17
+      ],
+      [
+       57,
+       17
+      ]
+     ]
+    },
+    {
+     "side": "bottom",
+     "tiles": [
+      [
+       56,
+       28
+      ],
+      [
+       57,
+       28
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    864,
+    273,
+    79,
+    11
+   ]
+  },
+  {
+   "id": "studio",
+   "name": "Studio Kreatif",
+   "category": "Desain, video, ComfyUI, autoclip, cinematic-shot",
+   "head_agent": "kreatif_head",
+   "rect_tiles": [
+    0,
+    32,
+    16,
+    14
+   ],
+   "interior_tiles": [
+    1,
+    35,
+    14,
+    10
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       7,
+       32
+      ],
+      [
+       8,
+       32
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    82,
+    513,
+    91,
+    11
+   ]
+  },
+  {
+   "id": "arsip",
+   "name": "Arsip & Pos Komunikasi",
+   "category": "Memory & handoff",
+   "head_agent": "arsip_head",
+   "rect_tiles": [
+    16,
+    32,
+    12,
+    14
+   ],
+   "interior_tiles": [
+    17,
+    35,
+    10,
+    10
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       21,
+       32
+      ],
+      [
+       22,
+       32
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    282,
+    513,
+    139,
+    11
+   ]
+  },
+  {
+   "id": "spesialis",
+   "name": "Paviliun Spesialis",
+   "category": "Agen niche",
+   "head_agent": "spesialis_head",
+   "rect_tiles": [
+    28,
+    32,
+    12,
+    14
+   ],
+   "interior_tiles": [
+    29,
+    35,
+    10,
+    10
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       33,
+       32
+      ],
+      [
+       34,
+       32
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    486,
+    513,
+    115,
+    11
+   ]
+  },
+  {
+   "id": "kantin",
+   "name": "Kantin & Pantry",
+   "category": "Fasilitas",
+   "head_agent": null,
+   "rect_tiles": [
+    40,
+    32,
+    12,
+    14
+   ],
+   "interior_tiles": [
+    41,
+    35,
+    10,
+    10
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       45,
+       32
+      ],
+      [
+       46,
+       32
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    687,
+    513,
+    97,
+    11
+   ]
+  },
+  {
+   "id": "gym",
+   "name": "Gym",
+   "category": "Fasilitas",
+   "head_agent": null,
+   "rect_tiles": [
+    52,
+    32,
+    12,
+    14
+   ],
+   "interior_tiles": [
+    53,
+    35,
+    10,
+    10
+   ],
+   "doors": [
+    {
+     "side": "top",
+     "tiles": [
+      [
+       57,
+       32
+      ],
+      [
+       58,
+       32
+      ]
+     ]
+    }
+   ],
+   "label_px": [
+    915,
+    513,
+    25,
+    11
+   ]
+  }
+ ],
+ "furniture": [
+  {
+   "name": "window",
+   "x": 18,
+   "y": 12,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "direksi",
+   "wall": true,
+   "z": 12
+  },
+  {
+   "name": "painting",
+   "x": 150,
+   "y": 18,
+   "w": 26,
+   "h": 18,
+   "nf": 1,
+   "room": "direksi",
+   "wall": true,
+   "z": 18
+  },
+  {
+   "name": "wall_clock",
+   "x": 120,
+   "y": 20,
+   "w": 14,
+   "h": 14,
+   "nf": 1,
+   "room": "direksi",
+   "wall": true,
+   "z": 20
+  },
+  {
+   "name": "trophy_cabinet",
+   "x": 168,
+   "y": 44,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 86
+  },
+  {
+   "name": "rug",
+   "x": 64,
+   "y": 104,
+   "w": 48,
+   "h": 32,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 136
+  },
+  {
+   "name": "exec_chair",
+   "x": 80,
+   "y": 66,
+   "w": 22,
+   "h": 26,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 92
+  },
+  {
+   "name": "exec_desk",
+   "x": 62,
+   "y": 80,
+   "w": 56,
+   "h": 34,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 114
+  },
+  {
+   "name": "sofa",
+   "x": 24,
+   "y": 152,
+   "w": 48,
+   "h": 28,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 180
+  },
+  {
+   "name": "coffee_table",
+   "x": 32,
+   "y": 140,
+   "w": 32,
+   "h": 18,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 158
+  },
+  {
+   "name": "plant_tall",
+   "x": 18,
+   "y": 46,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 86
+  },
+  {
+   "name": "globe",
+   "x": 144,
+   "y": 96,
+   "w": 16,
+   "h": 26,
+   "nf": 2,
+   "room": "direksi",
+   "wall": false,
+   "z": 122
+  },
+  {
+   "name": "skill_board",
+   "x": 168,
+   "y": 132,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "direksi",
+   "wall": false,
+   "z": 168
+  },
+  {
+   "name": "plant_monstera",
+   "x": 196,
+   "y": 176,
+   "w": 20,
+   "h": 30,
+   "nf": 2,
+   "room": "direksi",
+   "wall": false,
+   "z": 206
+  },
+  {
+   "name": "security_wall",
+   "x": 244,
+   "y": 14,
+   "w": 52,
+   "h": 32,
+   "nf": 3,
+   "room": "lab_qa",
+   "wall": true,
+   "z": 14
+  },
+  {
+   "name": "window",
+   "x": 392,
+   "y": 12,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": true,
+   "z": 12
+  },
+  {
+   "name": "desk_pc",
+   "x": 248,
+   "y": 70,
+   "w": 32,
+   "h": 32,
+   "nf": 3,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 102
+  },
+  {
+   "name": "chair_office",
+   "x": 256,
+   "y": 96,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 116
+  },
+  {
+   "name": "desk_pc",
+   "x": 288,
+   "y": 70,
+   "w": 32,
+   "h": 32,
+   "nf": 3,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 102
+  },
+  {
+   "name": "chair_office",
+   "x": 296,
+   "y": 96,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 116
+  },
+  {
+   "name": "test_bench",
+   "x": 344,
+   "y": 68,
+   "w": 48,
+   "h": 30,
+   "nf": 3,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 98
+  },
+  {
+   "name": "shield_terminal",
+   "x": 410,
+   "y": 54,
+   "w": 24,
+   "h": 38,
+   "nf": 3,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 92
+  },
+  {
+   "name": "anti_slop_filter",
+   "x": 248,
+   "y": 138,
+   "w": 28,
+   "h": 36,
+   "nf": 4,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 174
+  },
+  {
+   "name": "skill_board",
+   "x": 384,
+   "y": 136,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 172
+  },
+  {
+   "name": "plant_small",
+   "x": 336,
+   "y": 176,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 192
+  },
+  {
+   "name": "filing_cabinet",
+   "x": 308,
+   "y": 140,
+   "w": 16,
+   "h": 30,
+   "nf": 1,
+   "room": "lab_qa",
+   "wall": false,
+   "z": 170
+  },
+  {
+   "name": "tool_wall",
+   "x": 468,
+   "y": 14,
+   "w": 44,
+   "h": 28,
+   "nf": 1,
+   "room": "engineering",
+   "wall": true,
+   "z": 14
+  },
+  {
+   "name": "whiteboard",
+   "x": 588,
+   "y": 14,
+   "w": 44,
+   "h": 30,
+   "nf": 1,
+   "room": "engineering",
+   "wall": true,
+   "z": 14
+  },
+  {
+   "name": "window",
+   "x": 668,
+   "y": 12,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "engineering",
+   "wall": true,
+   "z": 12
+  },
+  {
+   "name": "window",
+   "x": 718,
+   "y": 12,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "engineering",
+   "wall": true,
+   "z": 12
+  },
+  {
+   "name": "server_rack",
+   "x": 530,
+   "y": 42,
+   "w": 18,
+   "h": 42,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 84
+  },
+  {
+   "name": "server_rack",
+   "x": 548,
+   "y": 42,
+   "w": 18,
+   "h": 42,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 84
+  },
+  {
+   "name": "server_rack",
+   "x": 566,
+   "y": 42,
+   "w": 18,
+   "h": 42,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 84
+  },
+  {
+   "name": "desk_dual",
+   "x": 598,
+   "y": 70,
+   "w": 48,
+   "h": 32,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 102
+  },
+  {
+   "name": "chair_office",
+   "x": 614,
+   "y": 96,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 116
+  },
+  {
+   "name": "desk_dual",
+   "x": 660,
+   "y": 70,
+   "w": 48,
+   "h": 32,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 102
+  },
+  {
+   "name": "chair_office",
+   "x": 676,
+   "y": 96,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 116
+  },
+  {
+   "name": "desk_dual",
+   "x": 598,
+   "y": 130,
+   "w": 48,
+   "h": 32,
+   "nf": 3,
+   "room": "engineering",
+   "wall": false,
+   "z": 162
+  },
+  {
+   "name": "chair_office",
+   "x": 614,
+   "y": 156,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 176
+  },
+  {
+   "name": "workbench",
+   "x": 470,
+   "y": 66,
+   "w": 52,
+   "h": 32,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 98
+  },
+  {
+   "name": "printer_3d",
+   "x": 478,
+   "y": 132,
+   "w": 22,
+   "h": 30,
+   "nf": 2,
+   "room": "engineering",
+   "wall": false,
+   "z": 162
+  },
+  {
+   "name": "skill_board",
+   "x": 708,
+   "y": 136,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 172
+  },
+  {
+   "name": "plant_tall",
+   "x": 732,
+   "y": 46,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 86
+  },
+  {
+   "name": "trash_bin",
+   "x": 520,
+   "y": 176,
+   "w": 10,
+   "h": 12,
+   "nf": 1,
+   "room": "engineering",
+   "wall": false,
+   "z": 188
+  },
+  {
+   "name": "water_dispenser",
+   "x": 732,
+   "y": 168,
+   "w": 14,
+   "h": 32,
+   "nf": 2,
+   "room": "engineering",
+   "wall": false,
+   "z": 200
+  },
+  {
+   "name": "bookshelf",
+   "x": 786,
+   "y": 46,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 88
+  },
+  {
+   "name": "bookshelf",
+   "x": 822,
+   "y": 46,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 88
+  },
+  {
+   "name": "data_board",
+   "x": 872,
+   "y": 14,
+   "w": 44,
+   "h": 30,
+   "nf": 2,
+   "room": "riset",
+   "wall": true,
+   "z": 14
+  },
+  {
+   "name": "bookshelf",
+   "x": 964,
+   "y": 46,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 88
+  },
+  {
+   "name": "rug_round",
+   "x": 838,
+   "y": 120,
+   "w": 40,
+   "h": 26,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 146
+  },
+  {
+   "name": "reading_table",
+   "x": 828,
+   "y": 112,
+   "w": 44,
+   "h": 30,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 142
+  },
+  {
+   "name": "chair_office",
+   "x": 842,
+   "y": 134,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 154
+  },
+  {
+   "name": "reading_table",
+   "x": 908,
+   "y": 112,
+   "w": 44,
+   "h": 30,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 142
+  },
+  {
+   "name": "chair_office",
+   "x": 922,
+   "y": 134,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 154
+  },
+  {
+   "name": "globe",
+   "x": 928,
+   "y": 64,
+   "w": 16,
+   "h": 26,
+   "nf": 2,
+   "room": "riset",
+   "wall": false,
+   "z": 90
+  },
+  {
+   "name": "skill_board",
+   "x": 964,
+   "y": 140,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 176
+  },
+  {
+   "name": "plant_monstera",
+   "x": 790,
+   "y": 168,
+   "w": 20,
+   "h": 30,
+   "nf": 2,
+   "room": "riset",
+   "wall": false,
+   "z": 198
+  },
+  {
+   "name": "armchair",
+   "x": 792,
+   "y": 110,
+   "w": 24,
+   "h": 26,
+   "nf": 1,
+   "room": "riset",
+   "wall": false,
+   "z": 136
+  },
+  {
+   "name": "floor_lamp",
+   "x": 988,
+   "y": 120,
+   "w": 12,
+   "h": 34,
+   "nf": 2,
+   "room": "riset",
+   "wall": false,
+   "z": 154
+  },
+  {
+   "name": "tv_wall",
+   "x": 140,
+   "y": 284,
+   "w": 48,
+   "h": 30,
+   "nf": 3,
+   "room": "rapat",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "whiteboard",
+   "x": 18,
+   "y": 286,
+   "w": 44,
+   "h": 30,
+   "nf": 1,
+   "room": "rapat",
+   "wall": true,
+   "z": 286
+  },
+  {
+   "name": "wall_clock",
+   "x": 70,
+   "y": 292,
+   "w": 14,
+   "h": 14,
+   "nf": 1,
+   "room": "rapat",
+   "wall": true,
+   "z": 292
+  },
+  {
+   "name": "meeting_chair",
+   "x": 54,
+   "y": 344,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 360
+  },
+  {
+   "name": "meeting_chair",
+   "x": 86,
+   "y": 344,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 360
+  },
+  {
+   "name": "meeting_chair",
+   "x": 118,
+   "y": 344,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 360
+  },
+  {
+   "name": "meeting_table",
+   "x": 46,
+   "y": 354,
+   "w": 80,
+   "h": 40,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 394
+  },
+  {
+   "name": "meeting_chair",
+   "x": 54,
+   "y": 396,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 412
+  },
+  {
+   "name": "meeting_chair",
+   "x": 86,
+   "y": 396,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 412
+  },
+  {
+   "name": "meeting_chair",
+   "x": 118,
+   "y": 396,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 412
+  },
+  {
+   "name": "plant_tall",
+   "x": 18,
+   "y": 400,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 440
+  },
+  {
+   "name": "water_dispenser",
+   "x": 196,
+   "y": 408,
+   "w": 14,
+   "h": 32,
+   "nf": 2,
+   "room": "rapat",
+   "wall": false,
+   "z": 440
+  },
+  {
+   "name": "plant_small",
+   "x": 196,
+   "y": 328,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "rapat",
+   "wall": false,
+   "z": 344
+  },
+  {
+   "name": "logo_wall",
+   "x": 420,
+   "y": 284,
+   "w": 56,
+   "h": 30,
+   "nf": 1,
+   "room": "lobby",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "window",
+   "x": 254,
+   "y": 284,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "lobby",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "window",
+   "x": 478,
+   "y": 284,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "lobby",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "wall_clock",
+   "x": 324,
+   "y": 292,
+   "w": 14,
+   "h": 14,
+   "nf": 1,
+   "room": "lobby",
+   "wall": true,
+   "z": 292
+  },
+  {
+   "name": "rug",
+   "x": 360,
+   "y": 392,
+   "w": 48,
+   "h": 32,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 424
+  },
+  {
+   "name": "reception_desk",
+   "x": 352,
+   "y": 338,
+   "w": 64,
+   "h": 36,
+   "nf": 3,
+   "room": "lobby",
+   "wall": false,
+   "z": 374
+  },
+  {
+   "name": "directory_kiosk",
+   "x": 264,
+   "y": 330,
+   "w": 26,
+   "h": 40,
+   "nf": 3,
+   "room": "lobby",
+   "wall": false,
+   "z": 370
+  },
+  {
+   "name": "directory_kiosk",
+   "x": 296,
+   "y": 330,
+   "w": 26,
+   "h": 40,
+   "nf": 3,
+   "room": "lobby",
+   "wall": false,
+   "z": 370
+  },
+  {
+   "name": "waiting_bench",
+   "x": 254,
+   "y": 412,
+   "w": 40,
+   "h": 22,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 434
+  },
+  {
+   "name": "sofa",
+   "x": 464,
+   "y": 420,
+   "w": 48,
+   "h": 28,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 448
+  },
+  {
+   "name": "coffee_table",
+   "x": 472,
+   "y": 406,
+   "w": 32,
+   "h": 18,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 424
+  },
+  {
+   "name": "plant_tall",
+   "x": 440,
+   "y": 412,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 452
+  },
+  {
+   "name": "skill_board",
+   "x": 474,
+   "y": 332,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 368
+  },
+  {
+   "name": "plant_monstera",
+   "x": 328,
+   "y": 432,
+   "w": 20,
+   "h": 30,
+   "nf": 2,
+   "room": "lobby",
+   "wall": false,
+   "z": 462
+  },
+  {
+   "name": "beanbag",
+   "x": 404,
+   "y": 428,
+   "w": 22,
+   "h": 18,
+   "nf": 1,
+   "room": "lobby",
+   "wall": false,
+   "z": 446
+  },
+  {
+   "name": "corkboard",
+   "x": 564,
+   "y": 286,
+   "w": 44,
+   "h": 28,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": true,
+   "z": 286
+  },
+  {
+   "name": "window",
+   "x": 694,
+   "y": 284,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "painting",
+   "x": 734,
+   "y": 290,
+   "w": 26,
+   "h": 18,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": true,
+   "z": 290
+  },
+  {
+   "name": "typewriter_desk",
+   "x": 570,
+   "y": 342,
+   "w": 34,
+   "h": 30,
+   "nf": 2,
+   "room": "redaksi",
+   "wall": false,
+   "z": 372
+  },
+  {
+   "name": "chair_office",
+   "x": 578,
+   "y": 364,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 384
+  },
+  {
+   "name": "typewriter_desk",
+   "x": 628,
+   "y": 342,
+   "w": 34,
+   "h": 30,
+   "nf": 2,
+   "room": "redaksi",
+   "wall": false,
+   "z": 372
+  },
+  {
+   "name": "chair_office",
+   "x": 636,
+   "y": 364,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 384
+  },
+  {
+   "name": "desk_pc",
+   "x": 694,
+   "y": 342,
+   "w": 32,
+   "h": 32,
+   "nf": 3,
+   "room": "redaksi",
+   "wall": false,
+   "z": 374
+  },
+  {
+   "name": "chair_office",
+   "x": 702,
+   "y": 368,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 388
+  },
+  {
+   "name": "newspaper_rack",
+   "x": 736,
+   "y": 322,
+   "w": 26,
+   "h": 30,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 352
+  },
+  {
+   "name": "bookshelf",
+   "x": 568,
+   "y": 408,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 450
+  },
+  {
+   "name": "skill_board",
+   "x": 720,
+   "y": 410,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 446
+  },
+  {
+   "name": "plant_small",
+   "x": 672,
+   "y": 432,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 448
+  },
+  {
+   "name": "armchair",
+   "x": 634,
+   "y": 422,
+   "w": 24,
+   "h": 26,
+   "nf": 1,
+   "room": "redaksi",
+   "wall": false,
+   "z": 448
+  },
+  {
+   "name": "growth_board",
+   "x": 804,
+   "y": 286,
+   "w": 44,
+   "h": 32,
+   "nf": 3,
+   "room": "growth",
+   "wall": true,
+   "z": 286
+  },
+  {
+   "name": "projector_screen",
+   "x": 934,
+   "y": 282,
+   "w": 40,
+   "h": 32,
+   "nf": 1,
+   "room": "growth",
+   "wall": true,
+   "z": 282
+  },
+  {
+   "name": "window",
+   "x": 854,
+   "y": 284,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "growth",
+   "wall": true,
+   "z": 284
+  },
+  {
+   "name": "desk_pc",
+   "x": 810,
+   "y": 344,
+   "w": 32,
+   "h": 32,
+   "nf": 3,
+   "room": "growth",
+   "wall": false,
+   "z": 376
+  },
+  {
+   "name": "chair_office",
+   "x": 818,
+   "y": 370,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 390
+  },
+  {
+   "name": "desk_pc",
+   "x": 860,
+   "y": 344,
+   "w": 32,
+   "h": 32,
+   "nf": 3,
+   "room": "growth",
+   "wall": false,
+   "z": 376
+  },
+  {
+   "name": "chair_office",
+   "x": 868,
+   "y": 370,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 390
+  },
+  {
+   "name": "megaphone_stand",
+   "x": 924,
+   "y": 342,
+   "w": 18,
+   "h": 30,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 372
+  },
+  {
+   "name": "trophy_cabinet",
+   "x": 974,
+   "y": 320,
+   "w": 34,
+   "h": 42,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 362
+  },
+  {
+   "name": "skill_board",
+   "x": 960,
+   "y": 410,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 446
+  },
+  {
+   "name": "beanbag",
+   "x": 824,
+   "y": 422,
+   "w": 22,
+   "h": 18,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 440
+  },
+  {
+   "name": "beanbag",
+   "x": 864,
+   "y": 428,
+   "w": 22,
+   "h": 18,
+   "nf": 1,
+   "room": "growth",
+   "wall": false,
+   "z": 446
+  },
+  {
+   "name": "plant_monstera",
+   "x": 924,
+   "y": 428,
+   "w": 20,
+   "h": 30,
+   "nf": 2,
+   "room": "growth",
+   "wall": false,
+   "z": 458
+  },
+  {
+   "name": "comfy_node_board",
+   "x": 20,
+   "y": 526,
+   "w": 48,
+   "h": 30,
+   "nf": 3,
+   "room": "studio",
+   "wall": true,
+   "z": 526
+  },
+  {
+   "name": "window",
+   "x": 200,
+   "y": 524,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "studio",
+   "wall": true,
+   "z": 524
+  },
+  {
+   "name": "green_screen",
+   "x": 120,
+   "y": 562,
+   "w": 52,
+   "h": 40,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 602
+  },
+  {
+   "name": "softbox_light",
+   "x": 104,
+   "y": 612,
+   "w": 22,
+   "h": 40,
+   "nf": 2,
+   "room": "studio",
+   "wall": false,
+   "z": 652
+  },
+  {
+   "name": "softbox_light",
+   "x": 176,
+   "y": 612,
+   "w": 22,
+   "h": 40,
+   "nf": 2,
+   "room": "studio",
+   "wall": false,
+   "z": 652
+  },
+  {
+   "name": "camera_tripod",
+   "x": 144,
+   "y": 662,
+   "w": 18,
+   "h": 40,
+   "nf": 2,
+   "room": "studio",
+   "wall": false,
+   "z": 702
+  },
+  {
+   "name": "editing_desk",
+   "x": 20,
+   "y": 588,
+   "w": 52,
+   "h": 34,
+   "nf": 3,
+   "room": "studio",
+   "wall": false,
+   "z": 622
+  },
+  {
+   "name": "chair_office",
+   "x": 40,
+   "y": 616,
+   "w": 16,
+   "h": 20,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 636
+  },
+  {
+   "name": "clapperboard",
+   "x": 80,
+   "y": 652,
+   "w": 14,
+   "h": 12,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 664
+  },
+  {
+   "name": "skill_board",
+   "x": 20,
+   "y": 672,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 708
+  },
+  {
+   "name": "beanbag",
+   "x": 212,
+   "y": 682,
+   "w": 22,
+   "h": 18,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 700
+  },
+  {
+   "name": "rug_round",
+   "x": 60,
+   "y": 672,
+   "w": 40,
+   "h": 26,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 698
+  },
+  {
+   "name": "plant_tall",
+   "x": 226,
+   "y": 564,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "studio",
+   "wall": false,
+   "z": 604
+  },
+  {
+   "name": "archive_cabinets",
+   "x": 274,
+   "y": 562,
+   "w": 48,
+   "h": 42,
+   "nf": 1,
+   "room": "arsip",
+   "wall": false,
+   "z": 604
+  },
+  {
+   "name": "mail_sorter",
+   "x": 330,
+   "y": 570,
+   "w": 36,
+   "h": 34,
+   "nf": 1,
+   "room": "arsip",
+   "wall": false,
+   "z": 604
+  },
+  {
+   "name": "radio_station",
+   "x": 386,
+   "y": 576,
+   "w": 36,
+   "h": 36,
+   "nf": 3,
+   "room": "arsip",
+   "wall": false,
+   "z": 612
+  },
+  {
+   "name": "memory_vault",
+   "x": 392,
+   "y": 642,
+   "w": 34,
+   "h": 40,
+   "nf": 3,
+   "room": "arsip",
+   "wall": false,
+   "z": 682
+  },
+  {
+   "name": "filing_cabinet",
+   "x": 276,
+   "y": 662,
+   "w": 16,
+   "h": 30,
+   "nf": 1,
+   "room": "arsip",
+   "wall": false,
+   "z": 692
+  },
+  {
+   "name": "filing_cabinet",
+   "x": 294,
+   "y": 662,
+   "w": 16,
+   "h": 30,
+   "nf": 1,
+   "room": "arsip",
+   "wall": false,
+   "z": 692
+  },
+  {
+   "name": "skill_board",
+   "x": 336,
+   "y": 662,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "arsip",
+   "wall": false,
+   "z": 698
+  },
+  {
+   "name": "wall_clock",
+   "x": 376,
+   "y": 532,
+   "w": 14,
+   "h": 14,
+   "nf": 1,
+   "room": "arsip",
+   "wall": true,
+   "z": 532
+  },
+  {
+   "name": "painting",
+   "x": 406,
+   "y": 528,
+   "w": 26,
+   "h": 18,
+   "nf": 1,
+   "room": "arsip",
+   "wall": true,
+   "z": 528
+  },
+  {
+   "name": "specimen_shelf",
+   "x": 466,
+   "y": 560,
+   "w": 34,
+   "h": 40,
+   "nf": 2,
+   "room": "spesialis",
+   "wall": false,
+   "z": 600
+  },
+  {
+   "name": "holo_pod",
+   "x": 528,
+   "y": 572,
+   "w": 26,
+   "h": 44,
+   "nf": 4,
+   "room": "spesialis",
+   "wall": false,
+   "z": 616
+  },
+  {
+   "name": "holo_pod",
+   "x": 568,
+   "y": 572,
+   "w": 26,
+   "h": 44,
+   "nf": 4,
+   "room": "spesialis",
+   "wall": false,
+   "z": 616
+  },
+  {
+   "name": "specimen_shelf",
+   "x": 596,
+   "y": 560,
+   "w": 34,
+   "h": 40,
+   "nf": 2,
+   "room": "spesialis",
+   "wall": false,
+   "z": 600
+  },
+  {
+   "name": "orb_pedestal",
+   "x": 488,
+   "y": 642,
+   "w": 18,
+   "h": 30,
+   "nf": 4,
+   "room": "spesialis",
+   "wall": false,
+   "z": 672
+  },
+  {
+   "name": "orb_pedestal",
+   "x": 598,
+   "y": 642,
+   "w": 18,
+   "h": 30,
+   "nf": 4,
+   "room": "spesialis",
+   "wall": false,
+   "z": 672
+  },
+  {
+   "name": "skill_board",
+   "x": 528,
+   "y": 662,
+   "w": 34,
+   "h": 36,
+   "nf": 1,
+   "room": "spesialis",
+   "wall": false,
+   "z": 698
+  },
+  {
+   "name": "plant_small",
+   "x": 468,
+   "y": 688,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "spesialis",
+   "wall": false,
+   "z": 704
+  },
+  {
+   "name": "window",
+   "x": 578,
+   "y": 524,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "spesialis",
+   "wall": true,
+   "z": 524
+  },
+  {
+   "name": "kitchen_counter",
+   "x": 658,
+   "y": 558,
+   "w": 72,
+   "h": 36,
+   "nf": 3,
+   "room": "kantin",
+   "wall": false,
+   "z": 594
+  },
+  {
+   "name": "fridge",
+   "x": 736,
+   "y": 558,
+   "w": 22,
+   "h": 40,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 598
+  },
+  {
+   "name": "vending_machine",
+   "x": 790,
+   "y": 562,
+   "w": 26,
+   "h": 42,
+   "nf": 2,
+   "room": "kantin",
+   "wall": false,
+   "z": 604
+  },
+  {
+   "name": "window",
+   "x": 760,
+   "y": 524,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "kantin",
+   "wall": true,
+   "z": 524
+  },
+  {
+   "name": "dining_set",
+   "x": 662,
+   "y": 620,
+   "w": 48,
+   "h": 44,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 664
+  },
+  {
+   "name": "dining_set",
+   "x": 740,
+   "y": 620,
+   "w": 48,
+   "h": 44,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 664
+  },
+  {
+   "name": "bar_stool",
+   "x": 670,
+   "y": 594,
+   "w": 12,
+   "h": 18,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 612
+  },
+  {
+   "name": "bar_stool",
+   "x": 694,
+   "y": 594,
+   "w": 12,
+   "h": 18,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 612
+  },
+  {
+   "name": "water_dispenser",
+   "x": 810,
+   "y": 672,
+   "w": 14,
+   "h": 32,
+   "nf": 2,
+   "room": "kantin",
+   "wall": false,
+   "z": 704
+  },
+  {
+   "name": "plant_small",
+   "x": 660,
+   "y": 688,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 704
+  },
+  {
+   "name": "trash_bin",
+   "x": 790,
+   "y": 688,
+   "w": 10,
+   "h": 12,
+   "nf": 1,
+   "room": "kantin",
+   "wall": false,
+   "z": 700
+  },
+  {
+   "name": "gym_mirror",
+   "x": 862,
+   "y": 526,
+   "w": 48,
+   "h": 30,
+   "nf": 1,
+   "room": "gym",
+   "wall": true,
+   "z": 526
+  },
+  {
+   "name": "window",
+   "x": 972,
+   "y": 524,
+   "w": 32,
+   "h": 26,
+   "nf": 1,
+   "room": "gym",
+   "wall": true,
+   "z": 524
+  },
+  {
+   "name": "treadmill",
+   "x": 854,
+   "y": 564,
+   "w": 26,
+   "h": 42,
+   "nf": 2,
+   "room": "gym",
+   "wall": false,
+   "z": 606
+  },
+  {
+   "name": "treadmill",
+   "x": 884,
+   "y": 564,
+   "w": 26,
+   "h": 42,
+   "nf": 2,
+   "room": "gym",
+   "wall": false,
+   "z": 606
+  },
+  {
+   "name": "exercise_bike",
+   "x": 920,
+   "y": 574,
+   "w": 20,
+   "h": 28,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 602
+  },
+  {
+   "name": "punching_bag",
+   "x": 1002,
+   "y": 564,
+   "w": 16,
+   "h": 42,
+   "nf": 2,
+   "room": "gym",
+   "wall": false,
+   "z": 606
+  },
+  {
+   "name": "dumbbell_rack",
+   "x": 962,
+   "y": 572,
+   "w": 36,
+   "h": 24,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 596
+  },
+  {
+   "name": "bench_press",
+   "x": 952,
+   "y": 632,
+   "w": 34,
+   "h": 30,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 662
+  },
+  {
+   "name": "yoga_mat",
+   "x": 862,
+   "y": 640,
+   "w": 16,
+   "h": 34,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 674
+  },
+  {
+   "name": "yoga_mat",
+   "x": 884,
+   "y": 640,
+   "w": 16,
+   "h": 34,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 674
+  },
+  {
+   "name": "water_dispenser",
+   "x": 1002,
+   "y": 672,
+   "w": 14,
+   "h": 32,
+   "nf": 2,
+   "room": "gym",
+   "wall": false,
+   "z": 704
+  },
+  {
+   "name": "plant_small",
+   "x": 924,
+   "y": 688,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "gym",
+   "wall": false,
+   "z": 704
+  },
+  {
+   "name": "plant_tall",
+   "x": 32,
+   "y": 214,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "corridor",
+   "wall": false,
+   "z": 254
+  },
+  {
+   "name": "plant_tall",
+   "x": 992,
+   "y": 214,
+   "w": 18,
+   "h": 40,
+   "nf": 1,
+   "room": "corridor",
+   "wall": false,
+   "z": 254
+  },
+  {
+   "name": "printer",
+   "x": 384,
+   "y": 234,
+   "w": 24,
+   "h": 22,
+   "nf": 2,
+   "room": "corridor",
+   "wall": false,
+   "z": 256
+  },
+  {
+   "name": "trash_bin",
+   "x": 704,
+   "y": 240,
+   "w": 10,
+   "h": 12,
+   "nf": 1,
+   "room": "corridor",
+   "wall": false,
+   "z": 252
+  },
+  {
+   "name": "plant_monstera",
+   "x": 32,
+   "y": 458,
+   "w": 20,
+   "h": 30,
+   "nf": 2,
+   "room": "corridor",
+   "wall": false,
+   "z": 488
+  },
+  {
+   "name": "vending_machine",
+   "x": 960,
+   "y": 448,
+   "w": 26,
+   "h": 42,
+   "nf": 2,
+   "room": "corridor",
+   "wall": false,
+   "z": 490
+  },
+  {
+   "name": "trash_bin",
+   "x": 416,
+   "y": 480,
+   "w": 10,
+   "h": 12,
+   "nf": 1,
+   "room": "corridor",
+   "wall": false,
+   "z": 492
+  },
+  {
+   "name": "plant_small",
+   "x": 736,
+   "y": 480,
+   "w": 14,
+   "h": 16,
+   "nf": 1,
+   "room": "corridor",
+   "wall": false,
+   "z": 496
+  }
+ ],
+ "skill_boards": [
+  {
+   "room": "direksi",
+   "x": 168,
+   "y": 132,
+   "screen": [
+    171,
+    136,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "lab_qa",
+   "x": 384,
+   "y": 136,
+   "screen": [
+    387,
+    140,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "engineering",
+   "x": 708,
+   "y": 136,
+   "screen": [
+    711,
+    140,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "riset",
+   "x": 964,
+   "y": 140,
+   "screen": [
+    967,
+    144,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "lobby",
+   "x": 474,
+   "y": 332,
+   "screen": [
+    477,
+    336,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "redaksi",
+   "x": 720,
+   "y": 410,
+   "screen": [
+    723,
+    414,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "growth",
+   "x": 960,
+   "y": 410,
+   "screen": [
+    963,
+    414,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "studio",
+   "x": 20,
+   "y": 672,
+   "screen": [
+    23,
+    676,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "arsip",
+   "x": 336,
+   "y": 662,
+   "screen": [
+    339,
+    666,
+    28,
+    11
+   ]
+  },
+  {
+   "room": "spesialis",
+   "x": 528,
+   "y": 662,
+   "screen": [
+    531,
+    666,
+    28,
+    11
+   ]
+  }
+ ],
+ "pois": [
+  {
+   "room": "direksi",
+   "x": 185,
+   "y": 96,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "direksi",
+   "x": 91,
+   "y": 86,
+   "anim": "sit",
+   "z": 7,
+   "who": "head",
+   "tag": "desk"
+  },
+  {
+   "room": "direksi",
+   "x": 38,
+   "y": 173,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "rest"
+  },
+  {
+   "room": "direksi",
+   "x": 58,
+   "y": 173,
+   "anim": "phone",
+   "z": 0,
+   "who": "any",
+   "tag": "rest"
+  },
+  {
+   "room": "direksi",
+   "x": 185,
+   "y": 180,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "lab_qa",
+   "x": 264,
+   "y": 109,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "lab_qa",
+   "x": 304,
+   "y": 109,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "lab_qa",
+   "x": 368,
+   "y": 108,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "lab_qa",
+   "x": 401,
+   "y": 184,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "engineering",
+   "x": 622,
+   "y": 109,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "engineering",
+   "x": 684,
+   "y": 109,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "engineering",
+   "x": 622,
+   "y": 169,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "engineering",
+   "x": 496,
+   "y": 108,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "engineering",
+   "x": 725,
+   "y": 184,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "riset",
+   "x": 850,
+   "y": 147,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "riset",
+   "x": 930,
+   "y": 147,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "riset",
+   "x": 803,
+   "y": 98,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "riset",
+   "x": 839,
+   "y": 98,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "riset",
+   "x": 981,
+   "y": 98,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "riset",
+   "x": 981,
+   "y": 188,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "rapat",
+   "x": 61,
+   "y": 356,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "rapat",
+   "x": 93,
+   "y": 356,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "rapat",
+   "x": 125,
+   "y": 356,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "rapat",
+   "x": 61,
+   "y": 408,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "rapat",
+   "x": 93,
+   "y": 408,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "rapat",
+   "x": 125,
+   "y": 408,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "meeting"
+  },
+  {
+   "room": "lobby",
+   "x": 382,
+   "y": 352,
+   "anim": "talk",
+   "z": 0,
+   "who": "head",
+   "tag": "desk"
+  },
+  {
+   "room": "lobby",
+   "x": 277,
+   "y": 380,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "kiosk"
+  },
+  {
+   "room": "lobby",
+   "x": 309,
+   "y": 380,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "kiosk"
+  },
+  {
+   "room": "lobby",
+   "x": 478,
+   "y": 441,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "rest"
+  },
+  {
+   "room": "lobby",
+   "x": 498,
+   "y": 441,
+   "anim": "phone",
+   "z": 0,
+   "who": "any",
+   "tag": "rest"
+  },
+  {
+   "room": "lobby",
+   "x": 491,
+   "y": 380,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "redaksi",
+   "x": 586,
+   "y": 377,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "redaksi",
+   "x": 644,
+   "y": 377,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "redaksi",
+   "x": 710,
+   "y": 381,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "redaksi",
+   "x": 749,
+   "y": 362,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "redaksi",
+   "x": 585,
+   "y": 460,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "redaksi",
+   "x": 737,
+   "y": 458,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "growth",
+   "x": 826,
+   "y": 383,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "growth",
+   "x": 876,
+   "y": 383,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "growth",
+   "x": 826,
+   "y": 328,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "growth",
+   "x": 991,
+   "y": 372,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "growth",
+   "x": 977,
+   "y": 458,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "studio",
+   "x": 48,
+   "y": 629,
+   "anim": "type",
+   "z": -1,
+   "who": "any",
+   "tag": "desk"
+  },
+  {
+   "room": "studio",
+   "x": 146,
+   "y": 596,
+   "anim": "wave",
+   "z": 1,
+   "who": "head",
+   "tag": "shoot"
+  },
+  {
+   "room": "studio",
+   "x": 37,
+   "y": 720,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "arsip",
+   "x": 348,
+   "y": 614,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "arsip",
+   "x": 404,
+   "y": 622,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "arsip",
+   "x": 353,
+   "y": 710,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "spesialis",
+   "x": 541,
+   "y": 626,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "spesialis",
+   "x": 581,
+   "y": 626,
+   "anim": "idle_up",
+   "z": 0,
+   "who": "any",
+   "tag": "work"
+  },
+  {
+   "room": "spesialis",
+   "x": 545,
+   "y": 710,
+   "anim": "crossed",
+   "z": 0,
+   "who": "head",
+   "tag": "board"
+  },
+  {
+   "room": "kantin",
+   "x": 693,
+   "y": 604,
+   "anim": "drink",
+   "z": 0,
+   "who": "any",
+   "tag": "coffee"
+  },
+  {
+   "room": "kantin",
+   "x": 677,
+   "y": 630,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "eat"
+  },
+  {
+   "room": "kantin",
+   "x": 695,
+   "y": 630,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "eat"
+  },
+  {
+   "room": "kantin",
+   "x": 755,
+   "y": 630,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "eat"
+  },
+  {
+   "room": "kantin",
+   "x": 773,
+   "y": 630,
+   "anim": "sit",
+   "z": 0,
+   "who": "any",
+   "tag": "eat"
+  },
+  {
+   "room": "gym",
+   "x": 867,
+   "y": 598,
+   "anim": "walk_up",
+   "z": 1,
+   "who": "any",
+   "tag": "gym"
+  },
+  {
+   "room": "gym",
+   "x": 897,
+   "y": 598,
+   "anim": "walk_up",
+   "z": 1,
+   "who": "any",
+   "tag": "gym"
+  },
+  {
+   "room": "gym",
+   "x": 870,
+   "y": 666,
+   "anim": "lift",
+   "z": 1,
+   "who": "any",
+   "tag": "gym"
+  },
+  {
+   "room": "gym",
+   "x": 892,
+   "y": 666,
+   "anim": "lift",
+   "z": 1,
+   "who": "any",
+   "tag": "gym"
+  }
+ ],
+ "agents": [
+  {
+   "id": "direksi_head",
+   "room": "direksi",
+   "spawn": [
+    185,
+    180
+   ],
+   "role": "head"
+  },
+  {
+   "id": "qa_head",
+   "room": "lab_qa",
+   "spawn": [
+    401,
+    184
+   ],
+   "role": "head"
+  },
+  {
+   "id": "eng_head",
+   "room": "engineering",
+   "spawn": [
+    725,
+    184
+   ],
+   "role": "head"
+  },
+  {
+   "id": "riset_head",
+   "room": "riset",
+   "spawn": [
+    981,
+    188
+   ],
+   "role": "head"
+  },
+  {
+   "id": "lobby_head",
+   "room": "lobby",
+   "spawn": [
+    491,
+    380
+   ],
+   "role": "head"
+  },
+  {
+   "id": "redaksi_head",
+   "room": "redaksi",
+   "spawn": [
+    737,
+    458
+   ],
+   "role": "head"
+  },
+  {
+   "id": "growth_head",
+   "room": "growth",
+   "spawn": [
+    977,
+    458
+   ],
+   "role": "head"
+  },
+  {
+   "id": "kreatif_head",
+   "room": "studio",
+   "spawn": [
+    37,
+    720
+   ],
+   "role": "head"
+  },
+  {
+   "id": "arsip_head",
+   "room": "arsip",
+   "spawn": [
+    353,
+    710
+   ],
+   "role": "head"
+  },
+  {
+   "id": "spesialis_head",
+   "room": "spesialis",
+   "spawn": [
+    545,
+    710
+   ],
+   "role": "head"
+  },
+  {
+   "id": "staff_a",
+   "room": "umum",
+   "spawn": [
+    320,
+    248
+   ],
+   "role": "staff"
+  },
+  {
+   "id": "staff_b",
+   "room": "umum",
+   "spawn": [
+    640,
+    488
+   ],
+   "role": "staff"
+  },
+  {
+   "id": "staff_c",
+   "room": "umum",
+   "spawn": [
+    128,
+    488
+   ],
+   "role": "staff"
+  },
+  {
+   "id": "staff_d",
+   "room": "umum",
+   "spawn": [
+    896,
+    248
+   ],
+   "role": "staff"
+  }
+ ],
+ "collision": [
+  "################################################################",
+  "################################################################",
+  "################################################################",
+  "#............##............##..................##..............#",
+  "###.......#####............##....####........####..............#",
+  "###.......##########.#################################....#.####",
+  "#...####.....#######.####..######....########..##..............#",
+  "#...####.#...##............##..................##..............#",
+  "#............##............##..................##..####.####...#",
+  "#.##.........##............##.##.....####......##............###",
+  "#####.....########.##...##.##.##.....####...#####...........####",
+  "#####........##......#.....##...#..............####............#",
+  "#...........###............##................######............#",
+  "######..############..###############..################..#######",
+  "................................................................",
+  "..#.....................##..................#.................#.",
+  "................................................................",
+  "######..###############..################..#############..######",
+  "######..###############..################..#############..######",
+  "######..###############..################..#############..######",
+  "#............##..................##.............##.............#",
+  "#...........###..................##...........####.............#",
+  "#............##.####..####...###.#####.###.###..########.##..###",
+  "#..#####.....##.####..####.......#####.###.###..########.##....#",
+  "#..#####.....##..................##.............##.............#",
+  "#............##..................##.............##.............#",
+  "#............##.###..........###.##.............##.............#",
+  "###.........###.###......#######.#####....#..##.##.##.##....##.#",
+  "######..###############..################..#############.#######",
+  "................................................................",
+  "..##......................#...................#.............##..",
+  "................................................................",
+  "#######..############..##########..##########..##########..#####",
+  "#######..############..##########..##########..##########..#####",
+  "#######..############..##########..##########..##########..#####",
+  "#..............##..........##..........##..........##..........#",
+  "#..............##..........##..........#########...########.####",
+  "#......####...#########.########.###############.##########.####",
+  "#####..........##.......#####....####..##..........##..........#",
+  "#..............##..........##..........##..........##..........#",
+  "#.....##...##..##..........##..........######.####.##......###.#",
+  "#..............##..........##.##.....########.####.##......###.#",
+  "#..............#####....#####..........##..........##..........#",
+  "####.....#...#######.##....###...##....###.......####....##...##",
+  "####...........##..........##..........##..........##..........#",
+  "################################################################"
+ ],
+ "notes": "collision: '.' bisa dilewati, '#' blok. z = urutan gambar (y-sort). Karakter digambar di (x-16, y-44)."
+}

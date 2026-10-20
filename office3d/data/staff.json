@@ -1,0 +1,184 @@
+[
+ {
+  "id": "qa_head",
+  "name": "Arga",
+  "title": "Kepala Lab QA & Keamanan",
+  "room": "lab_qa",
+  "palette": [
+   "#1d1a22",
+   "#bc825a",
+   "#5b1c23",
+   "#a06e4c"
+  ],
+  "sheet": "assets/characters/sheets/qa_head.png"
+ },
+ {
+  "id": "direksi_head",
+  "name": "Raka",
+  "title": "Kepala Ruang Direksi",
+  "room": "direksi",
+  "palette": [
+   "#1d1a23",
+   "#cc936a",
+   "#243053",
+   "#e4e0d2"
+  ],
+  "sheet": "assets/characters/sheets/direksi_head.png"
+ },
+ {
+  "id": "kreatif_head",
+  "name": "Bayu",
+  "title": "Kepala Studio Kreatif",
+  "room": "studio",
+  "palette": [
+   "#1d1a21",
+   "#c28960",
+   "#2f4465",
+   "#42648c"
+  ],
+  "sheet": "assets/characters/sheets/kreatif_head.png"
+ },
+ {
+  "id": "lobby_head",
+  "name": "Rara",
+  "title": "Resepsionis Lobby & Direktori",
+  "room": "lobby",
+  "palette": [
+   "#2e9696",
+   "#201a26",
+   "#e7b995",
+   "#3b3b47"
+  ],
+  "sheet": "assets/characters/sheets/lobby_head.png"
+ },
+ {
+  "id": "eng_head",
+  "name": "Bima",
+  "title": "Kepala Bengkel Engineering",
+  "room": "engineering",
+  "palette": [
+   "#261f24",
+   "#c28960",
+   "#e6802c",
+   "#333745"
+  ],
+  "sheet": "assets/characters/sheets/eng_head.png"
+ },
+ {
+  "id": "riset_head",
+  "name": "Sekar",
+  "title": "Kepala Perpustakaan Riset",
+  "room": "riset",
+  "palette": [
+   "#2c1f1f",
+   "#48382e",
+   "#efc8a8",
+   "#58845c"
+  ],
+  "sheet": "assets/characters/sheets/riset_head.png"
+ },
+ {
+  "id": "redaksi_head",
+  "name": "Dimas",
+  "title": "Kepala Ruang Redaksi",
+  "room": "redaksi",
+  "palette": [
+   "#261f22",
+   "#d4a434",
+   "#cc936a",
+   "#af8629"
+  ],
+  "sheet": "assets/characters/sheets/redaksi_head.png"
+ },
+ {
+  "id": "growth_head",
+  "name": "Nadia",
+  "title": "Kepala Ruang Growth",
+  "room": "growth",
+  "palette": [
+   "#201c27",
+   "#462820",
+   "#e7b895",
+   "#c43440"
+  ],
+  "sheet": "assets/characters/sheets/growth_head.png"
+ },
+ {
+  "id": "arsip_head",
+  "name": "Pak Wiryo",
+  "title": "Kepala Arsip & Pos Komunikasi",
+  "room": "arsip",
+  "palette": [
+   "#221c24",
+   "#aaa8ab",
+   "#c28960",
+   "#6c4d35"
+  ],
+  "sheet": "assets/characters/sheets/arsip_head.png"
+ },
+ {
+  "id": "spesialis_head",
+  "name": "Laras",
+  "title": "Kepala Paviliun Spesialis",
+  "room": "spesialis",
+  "palette": [
+   "#21181c",
+   "#e6e6eb",
+   "#a06746",
+   "#564949"
+  ],
+  "sheet": "assets/characters/sheets/spesialis_head.png"
+ },
+ {
+  "id": "staff_a",
+  "name": "Staf A",
+  "title": "Agen Staf",
+  "room": "umum",
+  "palette": [
+   "#211e27",
+   "#cc936a",
+   "#466ebe",
+   "#ad7c59"
+  ],
+  "sheet": "assets/characters/sheets/staff_a.png"
+ },
+ {
+  "id": "staff_b",
+  "name": "Staf B",
+  "title": "Agen Staf",
+  "room": "umum",
+  "palette": [
+   "#1a161e",
+   "#e3abac",
+   "#f0c8a8",
+   "#465a82"
+  ],
+  "sheet": "assets/characters/sheets/staff_b.png"
+ },
+ {
+  "id": "staff_c",
+  "name": "Staf C",
+  "title": "Agen Staf",
+  "room": "umum",
+  "palette": [
+   "#76589d",
+   "#221c27",
+   "#bc825a",
+   "#303442"
+  ],
+  "sheet": "assets/characters/sheets/staff_c.png"
+ },
+ {
+  "id": "staff_d",
+  "name": "Staf D",
+  "title": "Agen Staf",
+  "room": "umum",
+  "palette": [
+   "#1d1b23",
+   "#a06746",
+   "#469660",
+   "#88583b"
+  ],
+  "sheet": "assets/characters/sheets/staff_d.png"
+ }
+]

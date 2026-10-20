@@ -1,0 +1,132 @@
+[
+ {
+  "id": "direksi",
+  "label": "Ruang Direksi",
+  "rect": [
+   0,
+   0,
+   14,
+   14
+  ]
+ },
+ {
+  "id": "lab_qa",
+  "label": "Lab QA & Keamanan",
+  "rect": [
+   14,
+   0,
+   14,
+   14
+  ]
+ },
+ {
+  "id": "engineering",
+  "label": "Bengkel Engineering",
+  "rect": [
+   28,
+   0,
+   20,
+   14
+  ]
+ },
+ {
+  "id": "riset",
+  "label": "Perpustakaan Riset",
+  "rect": [
+   48,
+   0,
+   16,
+   14
+  ]
+ },
+ {
+  "id": "rapat",
+  "label": "Ruang Rapat",
+  "rect": [
+   0,
+   17,
+   14,
+   12
+  ]
+ },
+ {
+  "id": "lobby",
+  "label": "Lobby & Direktori",
+  "rect": [
+   14,
+   17,
+   20,
+   12
+  ]
+ },
+ {
+  "id": "redaksi",
+  "label": "Ruang Redaksi",
+  "rect": [
+   34,
+   17,
+   15,
+   12
+  ]
+ },
+ {
+  "id": "growth",
+  "label": "Ruang Growth",
+  "rect": [
+   49,
+   17,
+   15,
+   12
+  ]
+ },
+ {
+  "id": "studio",
+  "label": "Studio Kreatif",
+  "rect": [
+   0,
+   32,
+   16,
+   14
+  ]
+ },
+ {
+  "id": "arsip",
+  "label": "Arsip & Pos Komunikasi",
+  "rect": [
+   16,
+   32,
+   12,
+   14
+  ]
+ },
+ {
+  "id": "spesialis",
+  "label": "Paviliun Spesialis",
+  "rect": [
+   28,
+   32,
+   12,
+   14
+  ]
+ },
+ {
+  "id": "kantin",
+  "label": "Kantin & Pantry",
+  "rect": [
+   40,
+   32,
+   12,
+   14
+  ]
+ },
+ {
+  "id": "gym",
+  "label": "Gym",
+  "rect": [
+   52,
+   32,
+   12,
+   14
+  ]
+ }
+]
