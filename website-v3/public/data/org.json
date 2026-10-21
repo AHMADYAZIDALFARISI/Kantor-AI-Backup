@@ -1,0 +1,368 @@
+{
+ "leads": {
+  "arsip_head": [
+   {
+    "capabilities": [
+     "archiving",
+     "cataloging"
+    ],
+    "desc": "Mengatalogkan dokumen dan artefak kantor agar mudah ditemukan kembali.",
+    "id": "ar_katalog",
+    "name": "Katalog & Arsip",
+    "role": "Pengarsip",
+    "runtime": "delegation",
+    "tools": [
+     "pdfcraft (via bridge)"
+    ]
+   },
+   {
+    "capabilities": [
+     "communications",
+     "records"
+    ],
+    "desc": "Mengelola surat-menyurat dan pengumuman internal kantor.",
+    "id": "ar_komunikasi",
+    "name": "Pos Komunikasi",
+    "role": "Pengelola komunikasi",
+    "runtime": "delegation",
+    "tools": []
+   }
+  ],
+  "direksi_head": [
+   {
+    "capabilities": [
+     "analysis",
+     "summarization"
+    ],
+    "desc": "Merangkum laporan divisi dan indikator kinerja untuk keputusan direksi.",
+    "id": "dir_analyst",
+    "name": "Analis Laporan",
+    "role": "Analis eksekutif",
+    "runtime": "delegation",
+    "tools": [
+     "deckcraft (via bridge)"
+    ]
+   },
+   {
+    "capabilities": [
+     "documentation",
+     "decision-log"
+    ],
+    "desc": "Mencatat hasil rapat, keputusan, dan tindak lanjut beserta pemiliknya.",
+    "id": "dir_notulen",
+    "name": "Notulen & Keputusan",
+    "role": "Pencatat keputusan",
+    "runtime": "delegation",
+    "tools": [
+     "wordcraft (via bridge)"
+    ]
+   }
+  ],
+  "eng_head": [
+   {
+    "capabilities": [
+     "frontend",
+     "ui-implementation"
+    ],
+    "desc": "Membangun dan merawat antarmuka kantor 3D dan panel web.",
+    "id": "eng_frontend",
+    "name": "Frontend Developer",
+    "role": "Pengembang antarmuka",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)"
+    ]
+   },
+   {
+    "capabilities": [
+     "backend",
+     "api-design"
+    ],
+    "desc": "Merawat fungsi serverless, API chat, dan integrasi provider.",
+    "id": "eng_backend",
+    "name": "Backend & API",
+    "role": "Pengembang backend",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)"
+    ]
+   },
+   {
+    "capabilities": [
+     "deployment",
+     "monitoring"
+    ],
+    "desc": "Menangani build, deploy, dan pemantauan kesehatan layanan.",
+    "id": "eng_devops",
+    "name": "DevOps & Deploy",
+    "role": "Operasional rilis",
+    "runtime": "delegation",
+    "tools": [
+     "Vercel CLI"
+    ]
+   }
+  ],
+  "growth_head": [
+   {
+    "capabilities": [
+     "trend-research",
+     "affiliate-research"
+    ],
+    "desc": "Memantau tren fashion dan produk affiliate yang sedang naik untuk pipeline konten.",
+    "id": "gr_trend",
+    "name": "Riset Tren TikTok",
+    "role": "Pengamat tren",
+    "runtime": "delegation",
+    "tools": []
+   },
+   {
+    "capabilities": [
+     "analytics",
+     "reporting"
+    ],
+    "desc": "Menganalisis performa konten dan kampanye, menyusun rekomendasi iterasi.",
+    "id": "gr_campaign",
+    "name": "Analis Kampanye",
+    "role": "Analis pertumbuhan",
+    "runtime": "delegation",
+    "tools": []
+   }
+  ],
+  "kreatif_head": [
+   {
+    "capabilities": [
+     "graphic-design",
+     "branding"
+    ],
+    "desc": "Membuat aset visual dan moodboard untuk konten dan kampanye studio.",
+    "id": "kr_visual",
+    "name": "Desainer Visual",
+    "role": "Desain grafis",
+    "runtime": "delegation",
+    "tools": [
+     "photocraft (via bridge)",
+     "designcraft (via bridge)"
+    ]
+   },
+   {
+    "capabilities": [
+     "video-editing",
+     "motion"
+    ],
+    "desc": "Mengedit video mentah menjadi konten siap tayang (potong, susun, teks).",
+    "id": "kr_video",
+    "name": "Editor Video",
+    "role": "Penyunting video",
+    "runtime": "delegation",
+    "tools": [
+     "filmcraft (via bridge)",
+     "effectcraft (via bridge)"
+    ]
+   },
+   {
+    "capabilities": [
+     "copywriting",
+     "scriptwriting"
+    ],
+    "desc": "Menulis hook, caption, dan naskah pendek untuk konten studio.",
+    "id": "kr_copy",
+    "name": "Copywriter Kreatif",
+    "role": "Penulis kreatif",
+    "runtime": "delegation",
+    "tools": [
+     "wordcraft (via bridge)"
+    ]
+   }
+  ],
+  "lobby_head": [
+   {
+    "capabilities": [
+     "information",
+     "directory"
+    ],
+    "desc": "Menjawab pertanyaan arah/ruangan dan informasi umum kantor.",
+    "id": "lb_info",
+    "name": "Direktori & Informasi",
+    "role": "Petugas informasi",
+    "runtime": "delegation",
+    "tools": []
+   },
+   {
+    "capabilities": [
+     "hospitality",
+     "routing"
+    ],
+    "desc": "Menyambut pengunjung dan mengarahkan ke agen/ruangan yang tepat.",
+    "id": "lb_host",
+    "name": "Penyambut Tamu",
+    "role": "Front desk",
+    "runtime": "delegation",
+    "tools": []
+   }
+  ],
+  "qa_head": [
+   {
+    "capabilities": [
+     "security-testing",
+     "vulnerability-assessment"
+    ],
+    "desc": "Merencanakan dan menjalankan uji kerentanan endpoint & modul auth di bawah arahan lead QA.",
+    "id": "qa_pentest",
+    "name": "Uji Penetrasi",
+    "role": "Pengujian keamanan",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)",
+     "9router"
+    ]
+   },
+   {
+    "capabilities": [
+     "code-review",
+     "quality-gate"
+    ],
+    "desc": "Meninjau perubahan kode terhadap standar kualitas dan checklist penerimaan divisi.",
+    "id": "qa_codereview",
+    "name": "Review Kode QA",
+    "role": "Peninjau kode",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)"
+    ]
+   },
+   {
+    "capabilities": [
+     "reporting",
+     "documentation"
+    ],
+    "desc": "Menyusun laporan kerentanan dan bukti temuan untuk diserahkan ke Direksi.",
+    "id": "qa_report",
+    "name": "Laporan Keamanan",
+    "role": "Dokumentasi keamanan",
+    "runtime": "delegation",
+    "tools": [
+     "wordcraft (via bridge)"
+    ]
+   }
+  ],
+  "redaksi_head": [
+   {
+    "capabilities": [
+     "content-planning",
+     "scheduling"
+    ],
+    "desc": "Menyusun kalender dan antrean topik konten redaksi.",
+    "id": "rd_planner",
+    "name": "Perencana Konten",
+    "role": "Perencana editorial",
+    "runtime": "delegation",
+    "tools": []
+   },
+   {
+    "capabilities": [
+     "drafting",
+     "writing"
+    ],
+    "desc": "Menulis draf naskah dan artikel sesuai brief redaksi.",
+    "id": "rd_writer",
+    "name": "Penulis Naskah",
+    "role": "Penulis",
+    "runtime": "delegation",
+    "tools": [
+     "wordcraft (via bridge)"
+    ]
+   },
+   {
+    "capabilities": [
+     "editorial-review",
+     "brand-voice"
+    ],
+    "desc": "Meninjau draf terhadap gaya bahasa dan standar redaksi sebelum terbit.",
+    "id": "rd_editor",
+    "name": "Review Editorial",
+    "role": "Editor",
+    "runtime": "delegation",
+    "tools": []
+   }
+  ],
+  "riset_head": [
+   {
+    "capabilities": [
+     "source-discovery",
+     "web-research"
+    ],
+    "desc": "Mencari sumber primer dan data pendukung untuk topik riset divisi.",
+    "id": "rs_discovery",
+    "name": "Penemu Sumber",
+    "role": "Penelusur sumber",
+    "runtime": "delegation",
+    "tools": []
+   },
+   {
+    "capabilities": [
+     "fact-check",
+     "evidence-review"
+    ],
+    "desc": "Memverifikasi klaim dan bukti sebelum dipakai divisi lain.",
+    "id": "rs_factcheck",
+    "name": "Fakta & Verifikasi",
+    "role": "Pemeriksa fakta",
+    "runtime": "delegation",
+    "tools": []
+   },
+   {
+    "capabilities": [
+     "synthesis",
+     "reporting"
+    ],
+    "desc": "Mengubah temuan menjadi ringkasan dan rekomendasi yang bisa ditindaklanjuti.",
+    "id": "rs_synthesis",
+    "name": "Sintesis Riset",
+    "role": "Perangkum riset",
+    "runtime": "delegation",
+    "tools": [
+     "wordcraft (via bridge)"
+    ]
+   }
+  ],
+  "spesialis_head": [
+   {
+    "capabilities": [
+     "automation",
+     "workflow-design"
+    ],
+    "desc": "Merancang otomasi lintas divisi (pengingat, antrean, pemicu terjadwal).",
+    "id": "sp_automation",
+    "name": "Spesialis Otomasi",
+    "role": "Insinyur otomasi",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)"
+    ]
+   },
+   {
+    "capabilities": [
+     "api-integration",
+     "webhooks"
+    ],
+    "desc": "Menghubungkan layanan eksternal (Telegram, GitHub, Drive) ke alur kantor.",
+    "id": "sp_integration",
+    "name": "Integrasi API",
+    "role": "Integrator",
+    "runtime": "delegation",
+    "tools": [
+     "kantor-bridge (MCP)"
+    ]
+   }
+  ]
+ },
+ "note": "Registry organisasi Team Kreatif Agent AI Yazid. Lead = agen di staff.json. Sub-agen di bawah ini adalah KONFIGURASI organisasi: terdaftar dengan peran, kapabilitas, dan izin tool, tetapi BELUM terhubung ke runtime/model apa pun. Status runtime ditampilkan apa adanya di UI.",
+ "runtime_default": "not_connected",
+ "runtime_labels": {
+  "connected": "Terhubung",
+  "not_connected": "Belum terhubung runtime",
+  "simulated": "Simulasi",
+  "delegation": "Aktif via delegasi Telegram"
+ },
+ "version": 1
+}

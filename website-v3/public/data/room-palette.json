@@ -1,0 +1,67 @@
+{
+ "direksi": {
+  "wall": "#967860",
+  "floor": "#b08d5f",
+  "accent": "#4a90d9"
+ },
+ "lab_qa": {
+  "wall": "#78aaaa",
+  "floor": "#9aa5b1",
+  "accent": "#4a90d9"
+ },
+ "engineering": {
+  "wall": "#6e788c",
+  "floor": "#a8b5a0",
+  "accent": "#4a90d9"
+ },
+ "riset": {
+  "wall": "#b0a078",
+  "floor": "#c2a878",
+  "accent": "#4a90d9"
+ },
+ "rapat": {
+  "wall": "#a0aabe",
+  "floor": "#b5b0a8",
+  "accent": "#4a90d9"
+ },
+ "lobby": {
+  "wall": "#5aa0aa",
+  "floor": "#cbbfa5",
+  "accent": "#4a90d9"
+ },
+ "redaksi": {
+  "wall": "#c8b48c",
+  "floor": "#a0b8c8",
+  "accent": "#4a90d9"
+ },
+ "growth": {
+  "wall": "#dcbe96",
+  "floor": "#b8c8a0",
+  "accent": "#4a90d9"
+ },
+ "studio": {
+  "wall": "#464a5c",
+  "floor": "#c8a0a8",
+  "accent": "#4a90d9"
+ },
+ "arsip": {
+  "wall": "#8c7864",
+  "floor": "#a8a8b8",
+  "accent": "#4a90d9"
+ },
+ "spesialis": {
+  "wall": "#5a4c82",
+  "floor": "#b0c0b0",
+  "accent": "#4a90d9"
+ },
+ "kantin": {
+  "wall": "#e6d2aa",
+  "floor": "#d0b890",
+  "accent": "#4a90d9"
+ },
+ "gym": {
+  "wall": "#aa5a50",
+  "floor": "#98b0a8",
+  "accent": "#4a90d9"
+ }
+}

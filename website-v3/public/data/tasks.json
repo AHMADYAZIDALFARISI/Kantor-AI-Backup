@@ -1,0 +1,324 @@
+{
+ "qa_head": [
+  {
+   "title": "Audit keamanan endpoint API",
+   "progress": 55,
+   "eta": "3 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Uji penetrasi modul auth",
+   "progress": 20,
+   "eta": "5 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Tulis laporan kerentanan",
+   "progress": 80,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "direksi_head": [
+  {
+   "title": "Review laporan kuartal",
+   "progress": 70,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Rapat strategi ekspansi",
+   "progress": 30,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Setujui anggaran divisi",
+   "progress": 90,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "kreatif_head": [
+  {
+   "title": "Render video promo",
+   "progress": 40,
+   "eta": "4 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Desain aset kampanye",
+   "progress": 65,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Mixing audio podcast",
+   "progress": 85,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "lobby_head": [
+  {
+   "title": "Sambut tamu & mitra",
+   "progress": 60,
+   "eta": "rutin",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola jadwal resepsionis",
+   "progress": 80,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Update direktori kantor",
+   "progress": 45,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "eng_head": [
+  {
+   "title": "Refactor modul billing",
+   "progress": 45,
+   "eta": "4 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Perbaiki bug sinkronisasi",
+   "progress": 75,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Code review tim frontend",
+   "progress": 60,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "riset_head": [
+  {
+   "title": "Kaji paper LLM terbaru",
+   "progress": 40,
+   "eta": "seminggu",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Benchmark model embedding",
+   "progress": 65,
+   "eta": "3 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Arsip temuan riset",
+   "progress": 85,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "redaksi_head": [
+  {
+   "title": "Edit naskah artikel",
+   "progress": 70,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Riset topik trending",
+   "progress": 25,
+   "eta": "4 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Proofread newsletter",
+   "progress": 90,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "growth_head": [
+  {
+   "title": "Analisis funnel konversi",
+   "progress": 55,
+   "eta": "3 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Rancang kampanye baru",
+   "progress": 15,
+   "eta": "seminggu",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Laporan metrik mingguan",
+   "progress": 75,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "arsip_head": [
+  {
+   "title": "Digitalisasi dokumen lama",
+   "progress": 50,
+   "eta": "seminggu",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola surat masuk",
+   "progress": 90,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Backup arsip bulanan",
+   "progress": 30,
+   "eta": "5 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "spesialis_head": [
+  {
+   "title": "Konsultasi proyek khusus",
+   "progress": 60,
+   "eta": "3 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Dokumentasi SOP",
+   "progress": 35,
+   "eta": "4 hari",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Pelatihan tim",
+   "progress": 70,
+   "eta": "besok",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "staff_a": [
+  {
+   "title": "Sambut tamu & mitra",
+   "progress": 60,
+   "eta": "rutin",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola jadwal resepsionis",
+   "progress": 80,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Update direktori kantor",
+   "progress": 45,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "staff_b": [
+  {
+   "title": "Sambut tamu & mitra",
+   "progress": 60,
+   "eta": "rutin",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola jadwal resepsionis",
+   "progress": 80,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Update direktori kantor",
+   "progress": 45,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "staff_c": [
+  {
+   "title": "Sambut tamu & mitra",
+   "progress": 60,
+   "eta": "rutin",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola jadwal resepsionis",
+   "progress": 80,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Update direktori kantor",
+   "progress": 45,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ],
+ "staff_d": [
+  {
+   "title": "Sambut tamu & mitra",
+   "progress": 60,
+   "eta": "rutin",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Kelola jadwal resepsionis",
+   "progress": 80,
+   "eta": "hari ini",
+   "done": false,
+   "kind": "sample"
+  },
+  {
+   "title": "Update direktori kantor",
+   "progress": 45,
+   "eta": "2 hari",
+   "done": false,
+   "kind": "sample"
+  }
+ ]
+}

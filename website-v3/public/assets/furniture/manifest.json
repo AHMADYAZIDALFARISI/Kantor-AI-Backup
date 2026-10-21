@@ -1,0 +1,818 @@
+{
+ "type_to_model": {
+  "desk_pc": "desk_workstation",
+  "desk_dual": "desk_dual",
+  "editing_desk": "desk_editing",
+  "typewriter_desk": "desk_writer",
+  "workbench": "workbench",
+  "exec_desk": "desk_exec",
+  "chair_office": "chair_office",
+  "chair_office_down": "chair_office",
+  "exec_chair": "chair_exec",
+  "meeting_chair": "chair_meeting",
+  "armchair": "armchair",
+  "meeting_table": "table_meeting",
+  "reading_table": "table_reading",
+  "coffee_table": "table_coffee",
+  "dining_set": "dining_set",
+  "sofa": "sofa",
+  "beanbag": "beanbag",
+  "waiting_bench": "bench",
+  "bookshelf": "bookshelf",
+  "archive_cabinets": "archive_cabinets",
+  "filing_cabinet": "filing_cabinet",
+  "trophy_cabinet": "trophy_cabinet",
+  "specimen_shelf": "specimen_shelf",
+  "newspaper_rack": "newspaper_rack",
+  "plant_monstera": "plant_monstera",
+  "plant_small": "plant_small",
+  "plant_tall": "plant_tall",
+  "whiteboard": "whiteboard",
+  "corkboard": "corkboard",
+  "data_board": "wall_display",
+  "growth_board": "wall_display",
+  "comfy_node_board": "wall_display",
+  "skill_board": "skill_board",
+  "logo_wall": "logo_wall",
+  "painting": "painting",
+  "tv_wall": "tv_wall",
+  "projector_screen": "projector_screen",
+  "kitchen_counter": "kitchen_counter",
+  "fridge": "fridge",
+  "vending_machine": "vending_machine",
+  "water_dispenser": "water_dispenser",
+  "bar_stool": "bar_stool",
+  "treadmill": "treadmill",
+  "exercise_bike": "exercise_bike",
+  "dumbbell_rack": "dumbbell_rack",
+  "bench_press": "bench_press",
+  "yoga_mat": "yoga_mat",
+  "punching_bag": "punching_bag",
+  "gym_mirror": "gym_mirror",
+  "server_rack": "server_rack",
+  "printer": "printer",
+  "printer_3d": "printer_3d",
+  "test_bench": "test_bench",
+  "tool_wall": "tool_wall",
+  "holo_pod": "holo_pod",
+  "orb_pedestal": "orb_pedestal",
+  "memory_vault": "memory_vault",
+  "shield_terminal": "shield_terminal",
+  "security_wall": "security_wall",
+  "anti_slop_filter": "anti_slop_filter",
+  "floor_lamp": "floor_lamp",
+  "wall_clock": "wall_clock",
+  "rug": "rug",
+  "rug_round": "rug_round",
+  "globe": "globe",
+  "trash_bin": "trash_bin",
+  "camera_tripod": "camera_tripod",
+  "green_screen": "green_screen",
+  "softbox_light": "softbox_light",
+  "megaphone_stand": "megaphone_stand",
+  "radio_station": "radio_station",
+  "reception_desk": "reception_desk",
+  "directory_kiosk": "directory_kiosk",
+  "mail_sorter": "mail_sorter"
+ },
+ "models": {
+  "desk_workstation": {
+   "w": 1.6,
+   "d": 0.78,
+   "h": 1.19,
+   "tris": 1884,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen"
+   ]
+  },
+  "desk_dual": {
+   "w": 2.4,
+   "d": 0.8,
+   "h": 1.19,
+   "tris": 1864,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen",
+    "GlowCyan"
+   ]
+  },
+  "desk_editing": {
+   "w": 2.6,
+   "d": 0.85,
+   "h": 1.27,
+   "tris": 1596,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen"
+   ]
+  },
+  "desk_writer": {
+   "w": 1.7,
+   "d": 0.75,
+   "h": 1.137,
+   "tris": 1552,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "workbench": {
+   "w": 2.8,
+   "d": 0.85,
+   "h": 1.8,
+   "tris": 3504,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "GlowCyan"
+   ]
+  },
+  "desk_exec": {
+   "w": 2.4,
+   "d": 1.0,
+   "h": 1.21,
+   "tris": 1236,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen"
+   ]
+  },
+  "chair_office": {
+   "w": 0.59,
+   "d": 0.612,
+   "h": 1.079,
+   "tris": 1636,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "chair_exec": {
+   "w": 0.74,
+   "d": 0.683,
+   "h": 1.349,
+   "tris": 1044,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "chair_meeting": {
+   "w": 0.48,
+   "d": 0.484,
+   "h": 0.949,
+   "tris": 360,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "armchair": {
+   "w": 0.84,
+   "d": 0.81,
+   "h": 0.875,
+   "tris": 652,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "table_meeting": {
+   "w": 4.6,
+   "d": 1.5,
+   "h": 0.977,
+   "tris": 1624,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen",
+    "GlowGreen"
+   ]
+  },
+  "table_reading": {
+   "w": 2.4,
+   "d": 1.0,
+   "h": 1.12,
+   "tris": 1336,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "GlowWarm"
+   ]
+  },
+  "table_coffee": {
+   "w": 1.1,
+   "d": 0.6,
+   "h": 0.564,
+   "tris": 1000,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "dining_set": {
+   "w": 1.6,
+   "d": 1.68,
+   "h": 0.88,
+   "tris": 2324,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Glass"
+   ]
+  },
+  "sofa": {
+   "w": 2.2,
+   "d": 0.855,
+   "h": 0.871,
+   "tris": 1204,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "beanbag": {
+   "w": 0.827,
+   "d": 0.84,
+   "h": 0.68,
+   "tris": 580,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "bench": {
+   "w": 2.2,
+   "d": 0.579,
+   "h": 0.931,
+   "tris": 672,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "bookshelf": {
+   "w": 1.9,
+   "d": 0.4,
+   "h": 2.0,
+   "tris": 2992,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "archive_cabinets": {
+   "w": 2.78,
+   "d": 0.635,
+   "h": 2.1,
+   "tris": 5904,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "filing_cabinet": {
+   "w": 0.48,
+   "d": 0.63,
+   "h": 1.312,
+   "tris": 768,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "trophy_cabinet": {
+   "w": 1.8,
+   "d": 0.47,
+   "h": 2.0,
+   "tris": 840,
+   "mats": [
+    "FurnVC",
+    "Glass",
+    "Metal"
+   ]
+  },
+  "specimen_shelf": {
+   "w": 1.9,
+   "d": 0.45,
+   "h": 2.0,
+   "tris": 2244,
+   "mats": [
+    "FurnVC",
+    "Glass",
+    "GlowPurple",
+    "Metal",
+    "GlowCyan",
+    "GlowGreen"
+   ]
+  },
+  "newspaper_rack": {
+   "w": 1.0,
+   "d": 0.493,
+   "h": 1.467,
+   "tris": 636,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "plant_monstera": {
+   "w": 0.751,
+   "d": 0.809,
+   "h": 1.108,
+   "tris": 2044,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "plant_small": {
+   "w": 0.262,
+   "d": 0.267,
+   "h": 0.409,
+   "tris": 752,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "plant_tall": {
+   "w": 0.682,
+   "d": 0.477,
+   "h": 1.898,
+   "tris": 1480,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "whiteboard": {
+   "w": 1.8,
+   "d": 0.1,
+   "h": 1.95,
+   "tris": 444,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "corkboard": {
+   "w": 1.8,
+   "d": 0.075,
+   "h": 2.0,
+   "tris": 768,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "wall_display": {
+   "w": 1.9,
+   "d": 0.067,
+   "h": 2.125,
+   "tris": 120,
+   "mats": [
+    "FurnVC",
+    "Screen"
+   ]
+  },
+  "tv_wall": {
+   "w": 2.0,
+   "d": 0.335,
+   "h": 2.125,
+   "tris": 240,
+   "mats": [
+    "FurnVC",
+    "Screen"
+   ]
+  },
+  "projector_screen": {
+   "w": 2.0,
+   "d": 0.1,
+   "h": 2.45,
+   "tris": 56,
+   "mats": [
+    "FurnVC",
+    "Screen"
+   ]
+  },
+  "logo_wall": {
+   "w": 2.6,
+   "d": 0.13,
+   "h": 2.25,
+   "tris": 348,
+   "mats": [
+    "FurnVC",
+    "GlowWarm",
+    "GlowCyan"
+   ]
+  },
+  "painting": {
+   "w": 1.0,
+   "d": 0.066,
+   "h": 1.95,
+   "tris": 244,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "wall_clock": {
+   "w": 0.36,
+   "d": 0.07,
+   "h": 2.28,
+   "tris": 208,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "gym_mirror": {
+   "w": 2.6,
+   "d": 0.05,
+   "h": 2.05,
+   "tris": 120,
+   "mats": [
+    "Metal"
+   ]
+  },
+  "tool_wall": {
+   "w": 2.0,
+   "d": 0.085,
+   "h": 2.1,
+   "tris": 860,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "security_wall": {
+   "w": 2.6,
+   "d": 0.1,
+   "h": 2.2,
+   "tris": 192,
+   "mats": [
+    "FurnVC",
+    "Screen",
+    "GlowRed"
+   ]
+  },
+  "kitchen_counter": {
+   "w": 4.24,
+   "d": 0.7,
+   "h": 1.42,
+   "tris": 2572,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "GlowGreen",
+    "GlowCyan"
+   ]
+  },
+  "fridge": {
+   "w": 0.8,
+   "d": 0.74,
+   "h": 1.9,
+   "tris": 372,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "vending_machine": {
+   "w": 0.95,
+   "d": 0.821,
+   "h": 1.95,
+   "tris": 2484,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Glass",
+    "GlowCyan",
+    "GlowWarm"
+   ]
+  },
+  "water_dispenser": {
+   "w": 0.36,
+   "d": 0.395,
+   "h": 1.43,
+   "tris": 332,
+   "mats": [
+    "FurnVC",
+    "Glass"
+   ]
+  },
+  "bar_stool": {
+   "w": 0.4,
+   "d": 0.4,
+   "h": 0.75,
+   "tris": 476,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "treadmill": {
+   "w": 0.85,
+   "d": 1.982,
+   "h": 1.399,
+   "tris": 672,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "GlowCyan"
+   ]
+  },
+  "exercise_bike": {
+   "w": 0.5,
+   "d": 1.1,
+   "h": 1.105,
+   "tris": 940,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "dumbbell_rack": {
+   "w": 1.62,
+   "d": 0.6,
+   "h": 0.715,
+   "tris": 1592,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "bench_press": {
+   "w": 1.7,
+   "d": 1.33,
+   "h": 1.277,
+   "tris": 1156,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "yoga_mat": {
+   "w": 0.62,
+   "d": 1.85,
+   "h": 0.138,
+   "tris": 64,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "punching_bag": {
+   "w": 0.5,
+   "d": 0.435,
+   "h": 2.39,
+   "tris": 652,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "server_rack": {
+   "w": 0.65,
+   "d": 0.928,
+   "h": 2.05,
+   "tris": 1572,
+   "mats": [
+    "FurnVC",
+    "GlowGreen",
+    "GlowCyan",
+    "GlowWarm"
+   ]
+  },
+  "printer": {
+   "w": 0.62,
+   "d": 0.57,
+   "h": 0.776,
+   "tris": 348,
+   "mats": [
+    "FurnVC",
+    "GlowGreen"
+   ]
+  },
+  "printer_3d": {
+   "w": 0.72,
+   "d": 0.63,
+   "h": 1.4,
+   "tris": 716,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen"
+   ]
+  },
+  "test_bench": {
+   "w": 2.4,
+   "d": 0.8,
+   "h": 1.35,
+   "tris": 1116,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "Screen",
+    "GlowGreen",
+    "GlowRed",
+    "Glass",
+    "GlowCyan",
+    "GlowPurple"
+   ]
+  },
+  "holo_pod": {
+   "w": 1.1,
+   "d": 1.1,
+   "h": 2.02,
+   "tris": 948,
+   "mats": [
+    "FurnVC",
+    "GlowPurple",
+    "Glass"
+   ]
+  },
+  "orb_pedestal": {
+   "w": 0.44,
+   "d": 0.44,
+   "h": 1.31,
+   "tris": 376,
+   "mats": [
+    "FurnVC",
+    "GlowPurple"
+   ]
+  },
+  "memory_vault": {
+   "w": 1.4,
+   "d": 0.9,
+   "h": 1.9,
+   "tris": 648,
+   "mats": [
+    "Metal",
+    "GlowGreen",
+    "GlowWarm"
+   ]
+  },
+  "shield_terminal": {
+   "w": 0.7,
+   "d": 0.61,
+   "h": 1.752,
+   "tris": 348,
+   "mats": [
+    "FurnVC",
+    "Screen",
+    "GlowGreen"
+   ]
+  },
+  "anti_slop_filter": {
+   "w": 0.9,
+   "d": 0.71,
+   "h": 1.65,
+   "tris": 808,
+   "mats": [
+    "FurnVC",
+    "Glass",
+    "Metal",
+    "GlowGreen",
+    "Screen"
+   ]
+  },
+  "reception_desk": {
+   "w": 3.68,
+   "d": 0.923,
+   "h": 1.47,
+   "tris": 1336,
+   "mats": [
+    "FurnVC",
+    "GlowCyan",
+    "Metal",
+    "Screen"
+   ]
+  },
+  "directory_kiosk": {
+   "w": 0.8,
+   "d": 0.4,
+   "h": 2.0,
+   "tris": 336,
+   "mats": [
+    "FurnVC",
+    "Screen"
+   ]
+  },
+  "mail_sorter": {
+   "w": 1.8,
+   "d": 0.51,
+   "h": 1.7,
+   "tris": 696,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "radio_station": {
+   "w": 1.6,
+   "d": 0.7,
+   "h": 2.23,
+   "tris": 1276,
+   "mats": [
+    "FurnVC",
+    "Metal",
+    "GlowGreen",
+    "GlowRed"
+   ]
+  },
+  "camera_tripod": {
+   "w": 0.411,
+   "d": 0.638,
+   "h": 1.775,
+   "tris": 640,
+   "mats": [
+    "Metal",
+    "FurnVC",
+    "Glass",
+    "GlowRed"
+   ]
+  },
+  "softbox_light": {
+   "w": 0.6,
+   "d": 0.441,
+   "h": 2.023,
+   "tris": 176,
+   "mats": [
+    "Metal",
+    "FurnVC",
+    "GlowWarm"
+   ]
+  },
+  "green_screen": {
+   "w": 3.5,
+   "d": 1.03,
+   "h": 2.41,
+   "tris": 116,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "megaphone_stand": {
+   "w": 0.36,
+   "d": 0.5,
+   "h": 1.38,
+   "tris": 192,
+   "mats": [
+    "Metal",
+    "FurnVC"
+   ]
+  },
+  "floor_lamp": {
+   "w": 0.433,
+   "d": 0.44,
+   "h": 1.76,
+   "tris": 188,
+   "mats": [
+    "Metal",
+    "FurnVC",
+    "GlowWarm"
+   ]
+  },
+  "rug": {
+   "w": 2.6,
+   "d": 1.8,
+   "h": 0.016,
+   "tris": 36,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "rug_round": {
+   "w": 2.4,
+   "d": 2.4,
+   "h": 0.016,
+   "tris": 436,
+   "mats": [
+    "FurnVC"
+   ]
+  },
+  "globe": {
+   "w": 0.48,
+   "d": 0.405,
+   "h": 1.16,
+   "tris": 956,
+   "mats": [
+    "FurnVC",
+    "Metal"
+   ]
+  },
+  "trash_bin": {
+   "w": 0.38,
+   "d": 0.38,
+   "h": 0.445,
+   "tris": 120,
+   "mats": [
+    "Metal"
+   ]
+  },
+  "skill_board": {
+   "w": 1.3,
+   "d": 0.4,
+   "h": 1.925,
+   "tris": 336,
+   "mats": [
+    "Metal",
+    "FurnVC",
+    "Screen"
+   ]
+  }
+ }
+}

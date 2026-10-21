@@ -1,0 +1,177 @@
+[
+ {
+  "name": "boot desktop",
+  "pass": true,
+  "detail": "5.6s (SwiftShader)"
+ },
+ {
+  "name": "status backend online tampil",
+  "pass": true,
+  "detail": "AI terhubung"
+ },
+ {
+  "name": "14 karakter dimuat",
+  "pass": true,
+  "detail": "14"
+ },
+ {
+  "name": "kursi terdeteksi",
+  "pass": true,
+  "detail": "41"
+ },
+ {
+  "name": "draw call < baseline 396",
+  "pass": true,
+  "detail": "228"
+ },
+ {
+  "name": "rencana tugas tidak berubah otomatis",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "agen punya aktivitas (bukan diam semua)",
+  "pass": true,
+  "detail": "seated,seated,walking,seated,seated,seated,acting,acting,idle,walking,acting,walking,walking,seated"
+ },
+ {
+  "name": "ada agen duduk di kursi",
+  "pass": true,
+  "detail": "6"
+ },
+ {
+  "name": "tidak ada kursi ganda",
+  "pass": true,
+  "detail": "0"
+ },
+ {
+  "name": "agen berjalan tidak menembus furnitur/dinding",
+  "pass": true,
+  "detail": "0"
+ },
+ {
+  "name": "klik mouse memilih agen yang benar",
+  "pass": true,
+  "detail": "{'type': 'agent', 'id': 'qa_head'}"
+ },
+ {
+  "name": "panel menampilkan nama agen",
+  "pass": true,
+  "detail": "Arga"
+ },
+ {
+  "name": "hash deep-link diperbarui",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "drag memutar kamera",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "drag tidak mengubah seleksi",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "input chat tidak terhapus (bug B2)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "chat_start → agen status backend 'thinking'",
+  "pass": true,
+  "detail": "thinking/backend"
+ },
+ {
+  "name": "balasan backend tampil",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "chat_reply → status 'replied'",
+  "pass": true,
+  "detail": "{\"activity\": \"Membalas chat (backend)\", \"mode\": \"reacting\", \"source\": \"backend\", \"backendState\": \"replied\", \"backendAt\": 0, \"room\": \"lab_qa\"}"
+ },
+ {
+  "name": "animasi reaksi 'talk' saat membalas",
+  "pass": true,
+  "detail": "talk"
+ },
+ {
+  "name": "tombol zoom in",
+  "pass": true,
+  "detail": "160.0->120.0"
+ },
+ {
+  "name": "Esc menutup seleksi",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "kamera dalam batas polar 24..66 derajat",
+  "pass": true,
+  "detail": "50.0"
+ },
+ {
+  "name": "kamera di atas tinggi dinding (tidak menembus dinding)",
+  "pass": true,
+  "detail": "74.6"
+ },
+ {
+  "name": "shortcut 3 membuka ruangan ke-3",
+  "pass": true,
+  "detail": "Bengkel Engineering"
+ },
+ {
+  "name": "browser skill mencari",
+  "pass": true,
+  "detail": "16 hasil"
+ },
+ {
+  "name": "tidak ada error JS (desktop)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "chat_error → status 'error'",
+  "pass": true,
+  "detail": "{\"activity\": \"Chat gagal: bridge_http_502\", \"mode\": \"walking\", \"source\": \"backend\", \"backendState\": \"error\", \"backendAt\": 0, \"room\": \"engineering\"}"
+ },
+ {
+  "name": "pesan error ditampilkan",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "status 'belum dikonfigurasi'",
+  "pass": true,
+  "detail": "AI belum dikonfigurasi"
+ },
+ {
+  "name": "boot mobile",
+  "pass": true,
+  "detail": "5.5s"
+ },
+ {
+  "name": "mobile: pilih agen dari daftar",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "mobile: panel detail di dalam viewport",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "tidak ada error JS (mobile)",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "name": "fallback tanpa WebGL",
+  "pass": true,
+  "detail": "KC\nKantor tidak bisa dimuat\n\nBrowser ini tidak mendukung Web"
+ }
+]

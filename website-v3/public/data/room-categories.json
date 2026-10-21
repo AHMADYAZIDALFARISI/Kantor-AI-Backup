@@ -1,0 +1,15 @@
+{
+  "_note": "Aturan pemetaan skills.json ke ruangan. Dipakai untuk papan skill & daftar per ruangan. Hasilnya estimasi berbasis aturan, bukan label resmi dari repo sumber. Urutan menentukan prioritas.",
+  "order": ["arsip", "lab_qa", "studio", "engineering", "riset", "growth", "direksi", "redaksi", "spesialis"],
+  "rooms": {
+    "arsip": { "repos": ["ai-memory"], "agentCats": [], "keywords": ["memory", "handoff", "retriev", "archive", "context window", "session"] },
+    "lab_qa": { "repos": ["anti-slop"], "agentCats": ["testing", "security"], "keywords": ["test", " qa", "security", "audit", "vulnerab", "pentest", "lint", "code review", "compliance"] },
+    "studio": { "repos": ["autoclip", "cinematic-shot"], "agentCats": ["design"], "keywords": ["design", "video", "image", "comfyui", "figma", "brand", "animation", "clip", "visual", "illustrat", "3d"] },
+    "engineering": { "repos": [], "agentCats": ["engineering", "game-development", "spatial-computing", "integrations"], "keywords": ["code", "api", "backend", "frontend", "deploy", "database", "devops", "kubernetes", "python", "typescript", "javascript", "refactor", "debug", "git", "infrastructure", "terraform", "rust", "java", "golang", "cloud"] },
+    "riset": { "repos": [], "agentCats": ["academic", "research", "gis"], "keywords": ["research", "data", "analy", "sql", "statistic", "insight", "survey", "dashboard", "metric"] },
+    "growth": { "repos": [], "agentCats": ["marketing", "sales", "paid-media", "support"], "keywords": ["marketing", "seo", "sales", "ads", "campaign", "crm", "growth", "email", "customer", "social media", "outreach"] },
+    "direksi": { "repos": [], "agentCats": ["product", "project-management", "finance"], "keywords": ["strategy", "product", "finance", "budget", "roadmap", "okr", "legal", "pricing", "contract", "hiring", "planning"] },
+    "redaksi": { "repos": [], "agentCats": [], "keywords": ["write", "writing", "document", "content", "edit", "copy", "knowledge", "note", "summar", "blog", "article"] },
+    "spesialis": { "repos": [], "agentCats": ["specialized", "healthcare"], "keywords": [] }
+  }
+}
